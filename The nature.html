@@ -31,6 +31,32 @@
       margin-left: 10px;
       margin-right: 5px;
     }
+    #facebook:hover{
+      background-color: rgb(69, 69, 188);
+      color: #fff;
+    }
+    #whatsapp:hover{
+      background-color: rgb(65, 232, 53);
+      color: #fff;
+    }
+    #instagram:hover{
+      background:linear-gradient(to left ,rgba(76, 34, 117, 0.724),rgb(169, 48, 40));
+      color: #fff;
+    }
+    .elm::before{
+      position: absolute;
+      content: '';
+      left: 0;
+      bottom: 0;
+      background:
+      linear-gradient(to right ,rgb(0, 177, 100),rgb(0, 227, 215));
+      height: 5px;
+      width:0%; 
+      transition: width 0.3s ease ;
+      }
+    .elm:hover::before{
+      width: 100%;
+      }
     a{
       text-decoration: none;
       color: black;
